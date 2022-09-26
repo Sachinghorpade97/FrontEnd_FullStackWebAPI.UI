@@ -1,0 +1,38 @@
+.bgcolor {
+    /* background-color: rgb(152, 136, 247); */
+    background: linear-gradient(249deg, aqua 12%, rgba(0, 0, 0, 0) 0%), radial-gradient(at -55% 77%, aqua 40%, rgb(229, 232, 243) -1402%);
+
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+
+.btns {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid rgb(0, 153, 255);
+    border-radius: 0.6em;
+    color: rgb(0, 153, 255);
+    cursor: pointer;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .btns:hover,
+  .btns:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+  .firsts {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+
+  .firsts:hover {
+    box-shadow: 0 0 40px 40px rgb(0, 153, 255) inset;
+  }
